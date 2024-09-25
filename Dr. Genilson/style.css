@@ -1,0 +1,273 @@
+/* Animação para o background */
+@keyframes moveBackground {
+    2% {
+        background-position: center bottom;
+        /* Início da animação na parte inferior */
+    }
+
+    100% {
+        background-position: center top;
+        /* Fim da animação na parte superior */
+    }
+}
+
+/* Fundo do site */
+body {
+    height: 100vh;
+    /* Ocupa 100% da altura da viewport */
+    margin: 0;
+    /* Remove margens externas */
+    background-image: url('images/1.png');
+    /* Substitua pelo caminho correto da sua imagem */
+    background-size: cover;
+    /* Faz com que a imagem cubra todo o fundo */
+    background-position: center bottom;
+    /* Começa a animação a partir da parte inferior */
+    background-repeat: no-repeat;
+    /* Impede que a imagem se repita */
+    animation: moveBackground 20s linear infinite;
+    /* Animação contínua de 20 segundo */
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    /* Ajuste do padding para centralizar o texto */
+    width: 200px;
+    /* Aumenta a largura do botão */
+    background-color: #2e9c2c;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    font-weight: 700;
+    border-radius: 12px;
+    margin-top: 450px;
+    margin-left: -350px;
+    text-align: center;
+    /* Alinha o texto ao centro */
+    line-height: 1.5;
+    /* Garante que o texto fique alinhado verticalmente */
+}
+
+/* Animação de crescimento ao passar o mouse */
+.btn:hover {
+    transform: scale(1.2);
+    /* Aumenta o botão em 20% */
+    background-color: #67c1c4;
+    /* Muda para uma cor ao passar o mouse */
+}
+
+.logo img {
+    max-width: 500px;
+    margin-left: 100px;
+}
+
+h1 {
+    color: #0fb1a3;
+    margin-top: 200px;
+    margin-left: -200px;
+    font-family: 'Gowun Batang', serif;
+    font-size: 30px;
+}
+
+h2 {
+    color: #0fb1a3;
+    margin-top: 270px;
+    margin-left: -250px;
+}
+
+section {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Animação para o background */
+@keyframes moveBackground {
+    0% {
+        background-position: center bottom;
+    }
+
+    100% {
+        background-position: center top;
+    }
+}
+
+/* Fundo do site */
+body {
+    height: 100vh;
+    margin: 0;
+    background-image: url('images/1.png');
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    animation: moveBackground 20s linear infinite;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Botão */
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    width: 200px;
+    background-color: #2e9c2c;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    font-weight: 700;
+    border-radius: 12px;
+    margin-top: 350px;
+    margin-left: -190px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+    background-color: #67c1c4;
+}
+
+/* Logo */
+.logo img {
+    max-width: 500px;
+    /* Tamanho padrão da logo */
+    margin-left: 100px;
+}
+
+/* Títulos */
+h1 {
+    color: #0fb1a3;
+    margin-top: 200px;
+    margin-left: -200px;
+    font-family: 'Gowun Batang', serif;
+    font-size: 30px;
+}
+
+h2 {
+    color: #0fb1a3;
+    margin-top: 270px;
+    margin-left: -250px;
+}
+
+section {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Responsividade */
+/* Animação para o background */
+@keyframes moveBackground {
+    0% {
+        background-position: center bottom;
+    }
+
+    100% {
+        background-position: center top;
+    }
+}
+
+/* Fundo do site */
+body {
+    height: 100vh;
+    margin: 0;
+    background-image: url('images/1.png');
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    animation: moveBackground 20s linear infinite;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Botão */
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    width: 200px;
+    background-color: #2e9c2c;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    font-weight: 700;
+    border-radius: 12px;
+    text-align: center;
+    line-height: 1.5;
+
+    position: relative;
+    top: 100px;
+    /* Ajuste de posicionamento */
+    left: 50%;
+    transform: translateX(-50%);
+    /* Centraliza o botão horizontalmente */
+}
+
+.btn:hover {
+    transform: scale(1.2) translateX(-50%);
+    background-color: #67c1c4;
+}
+
+/* Logo */
+.logo img {
+    max-width: 500px;
+    margin-left: 100px;
+}
+
+/* Títulos */
+h1 {
+    color: #0fb1a3;
+    margin-top: 200px;
+    margin-left: -200px;
+    font-family: 'Gowun Batang', serif;
+    font-size: 30px;
+}
+
+h2 {
+    color: #0fb1a3;
+    margin-top: 270px;
+    margin-left: -250px;
+}
+
+section {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 750px) {
+    body {
+        background-image: url('images/backgroundresponsivo.png');
+        min-height: 100vh;
+        background-size: cover;
+    }
+
+    .logo img {
+        margin-left: 0px;
+        max-width: 450px;
+    }
+
+    h1 {
+        margin-top: 100px;
+        margin-left: -340px;
+        font-family: 'Gowun Batang', serif;
+        font-size: 30px;
+    }
+
+    .btn {
+        padding: 20px 50px;
+        top: 200px;
+        /* Ajustando a posição para a tela menor */
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
